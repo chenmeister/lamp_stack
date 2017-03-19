@@ -1,4 +1,3 @@
 # lamp_stack
 
-TODO: Enter the cookbook description here.
-
+This cookbook is a tutorial on how to build a LAMP stack with Chef
