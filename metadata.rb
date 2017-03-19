@@ -6,6 +6,13 @@ description 'Installs/Configures lamp_stack'
 long_description 'Installs/Configures lamp_stack'
 version '0.1.0'
 
+depends 'selinux', '~> 0.9'
+depends 'firewall', '~>2.5'
+depends 'httpd', '~>0.4'
+depends 'mysql', '~>7.0'
+depends 'mysql2_chef_gem', '~>1.1'
+depends 'database', '~>6.0'
+
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
